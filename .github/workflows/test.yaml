@@ -25,7 +25,7 @@ jobs:
           go-version-file: go.mod
 
       - name: Run lint check
-        uses: reviewdog/action-golangci-lint@v2
+        uses: reviewdog/action-golangci-lint@284129a3ac23bc5d8ac1522e0b6511df74a8836d # v2
         with:
           reporter: github-pr-review
           go_version_file: go.mod
@@ -52,6 +52,6 @@ jobs:
 
       - name: Codecov
         if: matrix.os == 'ubuntu-latest' && matrix.go-version == 'stable'
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238 # v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
