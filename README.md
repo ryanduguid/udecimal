@@ -1,5 +1,8 @@
 # udecimal
 
+The badges below refer to
+[upstream udecimal](https://github.com/quagmt/udecimal).
+
 [![build](https://github.com/quagmt/udecimal/actions/workflows/test.yaml/badge.svg)](https://github.com/quagmt/udecimal/actions/workflows/test.yaml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/quagmt/udecimal)](https://goreportcard.com/report/github.com/quagmt/udecimal)
 [![codecov](https://codecov.io/gh/quagmt/udecimal/graph/badge.svg?token=662ET843EZ)](https://codecov.io/gh/quagmt/udecimal)
